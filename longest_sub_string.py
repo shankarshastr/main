@@ -27,3 +27,4 @@ def findLongestSubstring(string):
     return string[start+1:maxlen+1]
 
 print findLongestSubstring('ABDEFGABEF')
+#https://www.geeksforgeeks.org/print-longest-substring-without-repeating-characters/
