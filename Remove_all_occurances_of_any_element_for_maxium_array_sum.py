@@ -1,6 +1,8 @@
 a = [1, 1, 3, 3, 2, 2, 1, 1, 1]
 sum =0
 dict = {}
+max = 0
+prod = 0
 
 for i in a:
     sum = sum + i
@@ -8,8 +10,7 @@ for i in a:
         dict[i] = 1
     else:
         dict[i] += 1
-max = 0
-prod = 0
+
 for i in dict.keys():
      prod = i * dict[i]
      diff = sum - prod
